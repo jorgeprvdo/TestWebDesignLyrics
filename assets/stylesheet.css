@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Inconsolata&display=swap');
+ /*
+font-family: 'Dosis', sans-serif;
+font-family: 'Inconsolata', monospace; 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/assets/img/fondo.gif);
+    background-position: inherit;
+}
+
+.Informacion {
+    width: 100%;
+    height: auto;
+    background-image: url(/assets/img/fondo.gif);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#artistPicture {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+#SongLyrics {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 510px;
+    margin-left: 520px;
+    font-family: 'Inconsolata', monospace; 
+    color: white;
+}
+
+pre {
+    font-family: 'Inconsolata', monospace;
+}
+
+#songInfo {
+    font-family: 'Dosis', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+/* Audio */
+
+#AM {
+    width: 50%;
+}
+
+#audioBox {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+
+footer {
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Dosis', sans-serif;
+}
